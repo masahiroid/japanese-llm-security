@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it using these metadata."
+title: "japanese-llm-security"
+type: software
+authors:
+  - family-names: Nakatsugawa
+    given-names: Masahiro
+    orcid: "https://orcid.org/0009-0000-3224-0103"
+abstract: >-
+  A map of Japanese-language LLM / agent security resources for indirect prompt injection:
+  agentdojo-ja, InjecAgent-ja, BIPIA-attacks-ja, Nemotron-RL-Agentic-IPI-ja, the Japanese
+  indirect-injection probes, and model-audit-lite.
+repository-code: "https://github.com/masahiroid/japanese-llm-security"
+keywords:
+  - llm-security
+  - prompt-injection
+  - japanese
+  - resources
