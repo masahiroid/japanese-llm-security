@@ -61,6 +61,10 @@ the original). The next versions add Japan-specific variants (keigo and indirect
 Japanese services). agentdojo-ja and the probes already include such Japan-specific material. Verifiers of the originals depend on
 English tool names and argument values, which is why those are kept verbatim.
 
+### Related: in-browser demo and on-device pieces
+
+[Ruri Atlas](https://huggingface.co/spaces/masahiroid/ruri-atlas) is a WebGPU demo (3-D map of Japanese semantic search) built on our ONNX rerankers ([xsmall-v2](https://huggingface.co/masahiroid/japanese-reranker-xsmall-v2-onnx-web), [small-v2](https://huggingface.co/masahiroid/japanese-reranker-small-v2-onnx-web)); the Core ML / TFLite / MLX conversions and the Swift / Kotlin RAG libraries are listed on the author's [Hugging Face profile](https://huggingface.co/masahiroid).
+
 ### Related Japanese safety datasets (not ours)
 
 These cover *harmful requests / refusal behavior*, a different question from agent injection: [AnswerCarefully](https://huggingface.co/datasets/llm-jp/AnswerCarefully) (llm-jp),
@@ -118,6 +122,10 @@ native speakers, and a combined runner.
 ここで翻訳したものは全て**翻訳優先（v0.1）**です。忠実な機械翻訳と自動検証（構造・識別子・引数リテラル）のみで、ネイティブによる査読は未実施、
 ローカライズもしていません（人名・通貨・サービスは原文のまま）。今後の版で、日本固有の変種（敬語・婉曲、全角・かな・漢字の混在、円と日本のサービス）を
 追加します。agentdojo-ja とプローブには、すでに日本固有の素材が含まれます。原本の検証器は英語のツール名と引数の値に依存するため、それらは原文のまま保持しています。
+
+### 関連: ブラウザで動くデモとオンデバイスの部品
+
+[Ruri Atlas](https://huggingface.co/spaces/masahiroid/ruri-atlas) は、自作のONNXリランカー（[xsmall-v2](https://huggingface.co/masahiroid/japanese-reranker-xsmall-v2-onnx-web)、[small-v2](https://huggingface.co/masahiroid/japanese-reranker-small-v2-onnx-web)）で動く、WebGPUのデモ（日本語の意味検索を3Dの地図で見る）です。Core ML / TFLite / MLX の変換と、Swift / Kotlin のRAGライブラリは、作者の[Hugging Faceのプロフィール](https://huggingface.co/masahiroid)にまとまっています。
 
 ### 関連する日本語の安全性データセット（本プロジェクトのものではありません）
 
