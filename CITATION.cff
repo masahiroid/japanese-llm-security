@@ -12,6 +12,7 @@ abstract: >-
   indirect-injection probes, and model-audit-lite.
 repository-code: "https://github.com/masahiroid/japanese-llm-security"
 license: Apache-2.0
+doi: 10.5281/zenodo.23122807
 keywords:
   - llm-security
   - prompt-injection
