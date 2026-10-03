@@ -46,7 +46,7 @@ probes = hf_hub_download("masahiroid/japanese-indirect-prompt-injection-probes",
 ```
 
 ```bash
-pip install git+https://github.com/masahiroid/model-audit-lite
+pip install model-audit-lite
 model-audit-lite probe your/model --probe-set ja-injection --max-tokens 300
 
 pip install git+https://github.com/masahiroid/agentdojo-ja
