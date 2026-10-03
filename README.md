@@ -13,7 +13,7 @@ to start: which dataset or benchmark answers which question, how they relate to 
 |---|---|---|---|---|
 | [agentdojo-ja](https://github.com/masahirocom/agentdojo-ja) | Japanese localization of the AgentDojo benchmark: dynamic, state-based agent evaluation (banking, slack, travel, workspace), 25 Japanese attacks, defenses | 97 user / 31 injection tasks | [AgentDojo](https://github.com/ethz-spylab/agentdojo), MIT | localization + extras |
 | [InjecAgent-ja](https://huggingface.co/datasets/masahiroid/injecagent-ja) | Tool-using agents hit by injections in tool responses (direct harm / data stealing), incl. Japanese tool definitions | 1,054 cases x 2 settings | [InjecAgent](https://github.com/uiuc-kang-lab/InjecAgent), MIT | translation |
-| [BIPIA-attacks-ja](https://huggingface.co/datasets/masahiroid/bipia-attacks-ja) | Attack instructions of BIPIA (text and code attacks); contexts are not redistributed | 250 attacks | [BIPIA](https://github.com/microsoft/BIPIA), MIT | translation |
+| [BIPIA-attacks-ja](https://huggingface.co/datasets/masahiroid/bipia-attacks-ja) | Attack instructions of BIPIA (text and code attacks); contexts are not redistributed | 250 attacks + 50 Japanese-native (v0.2) | [BIPIA](https://github.com/microsoft/BIPIA), MIT | translation + original extras |
 | [Nemotron-RL-Agentic-IPI-ja](https://huggingface.co/datasets/masahiroid/nemotron-agentic-ipi-ja) | RL / eval records with deterministic trace verification across 9 enterprise domains | 1,272 records | [NVIDIA](https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1), CC-BY-4.0 | translation |
 | [Japanese indirect prompt-injection probes](https://huggingface.co/datasets/masahiroid/japanese-indirect-prompt-injection-probes) | Small probe set written in Japanese: keigo-style injection, full-width/hiragana/romaji obfuscation, fake 【システム】 markers, position axis | 60 probes (10 categories) | original, CC-BY-4.0 | original |
 
@@ -91,7 +91,7 @@ native speakers, and a combined runner.
 |---|---|---|---|---|
 | [agentdojo-ja](https://github.com/masahirocom/agentdojo-ja) | AgentDojoの日本語ローカライズ。動的・状態ベースのエージェント評価（banking / slack / travel / workspace）、日本語攻撃25種、防御 | user 97 / injection 31 | [AgentDojo](https://github.com/ethz-spylab/agentdojo)、MIT | ローカライズ＋独自拡張 |
 | [InjecAgent-ja](https://huggingface.co/datasets/masahiroid/injecagent-ja) | ツール応答に仕込まれた注入（直接的な害／データ窃取）。日本語のツール定義つき | 1,054件×2設定 | [InjecAgent](https://github.com/uiuc-kang-lab/InjecAgent)、MIT | 翻訳 |
-| [BIPIA-attacks-ja](https://huggingface.co/datasets/masahiroid/bipia-attacks-ja) | BIPIAの攻撃文（テキスト／コード）。文脈データは再配布しない | 250件 | [BIPIA](https://github.com/microsoft/BIPIA)、MIT | 翻訳 |
+| [BIPIA-attacks-ja](https://huggingface.co/datasets/masahiroid/bipia-attacks-ja) | BIPIAの攻撃文（テキスト／コード）。文脈データは再配布しない | 250件 + 日本語固有50件（v0.2） | [BIPIA](https://github.com/microsoft/BIPIA)、MIT | 翻訳＋独自拡張 |
 | [Nemotron-RL-Agentic-IPI-ja](https://huggingface.co/datasets/masahiroid/nemotron-agentic-ipi-ja) | 9つの企業ドメインの、決定的なトレース検証つき RL／評価データ | 1,272件 | [NVIDIA](https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1)、CC-BY-4.0 | 翻訳 |
 | [日本語 間接プロンプトインジェクション・プローブ](https://huggingface.co/datasets/masahiroid/japanese-indirect-prompt-injection-probes) | 日本語で書いた小規模プローブ。敬語、全角・ひらがな・ローマ字、偽【システム】、位置の軸 | 60件（10カテゴリ） | 独自、CC-BY-4.0 | 独自 |
 
