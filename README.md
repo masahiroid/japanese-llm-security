@@ -11,7 +11,7 @@ to start: which dataset or benchmark answers which question, how they relate to 
 
 | Resource | What it is | Size | Origin / license | Kind |
 |---|---|---|---|---|
-| [agentdojo-ja](https://github.com/masahirocom/agentdojo-ja) | Japanese localization of the AgentDojo benchmark: dynamic, state-based agent evaluation (banking, slack, travel, workspace), 25 Japanese attacks, defenses | 97 user / 31 injection tasks | [AgentDojo](https://github.com/ethz-spylab/agentdojo), MIT | localization + extras |
+| [agentdojo-ja](https://github.com/masahiroid/agentdojo-ja) | Japanese localization of the AgentDojo benchmark: dynamic, state-based agent evaluation (banking, slack, travel, workspace), 25 Japanese attacks, defenses | 97 user / 31 injection tasks | [AgentDojo](https://github.com/ethz-spylab/agentdojo), MIT | localization + extras |
 | [InjecAgent-ja](https://huggingface.co/datasets/masahiroid/injecagent-ja) | Tool-using agents hit by injections in tool responses (direct harm / data stealing), incl. Japanese tool definitions | 1,054 cases x 2 settings | [InjecAgent](https://github.com/uiuc-kang-lab/InjecAgent), MIT | translation |
 | [BIPIA-attacks-ja](https://huggingface.co/datasets/masahiroid/bipia-attacks-ja) | Attack instructions of BIPIA (text and code attacks); contexts are not redistributed | 250 attacks + 50 Japanese-native (v0.2) | [BIPIA](https://github.com/microsoft/BIPIA), MIT | translation + original extras |
 | [Nemotron-RL-Agentic-IPI-ja](https://huggingface.co/datasets/masahiroid/nemotron-agentic-ipi-ja) | RL / eval records with deterministic trace verification across 9 enterprise domains | 1,272 records | [NVIDIA](https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1), CC-BY-4.0 | translation |
@@ -21,7 +21,7 @@ to start: which dataset or benchmark answers which question, how they relate to 
 
 | Tool | Use |
 |---|---|
-| [model-audit-lite](https://github.com/masahirocom/model-audit-lite) | File audit (pickle / custom code / checksums), conversion-integrity compare, probe runner (`--probe-set ja-injection`), CycloneDX ML-BOM with conversion lineage (`bom`) |
+| [model-audit-lite](https://github.com/masahiroid/model-audit-lite) | File audit (pickle / custom code / checksums), conversion-integrity compare, probe runner (`--probe-set ja-injection`), CycloneDX ML-BOM with conversion lineage (`bom`) |
 
 ### Which one for which question
 
@@ -46,10 +46,10 @@ probes = hf_hub_download("masahiroid/japanese-indirect-prompt-injection-probes",
 ```
 
 ```bash
-pip install git+https://github.com/masahirocom/model-audit-lite
+pip install git+https://github.com/masahiroid/model-audit-lite
 model-audit-lite probe your/model --probe-set ja-injection --max-tokens 300
 
-pip install git+https://github.com/masahirocom/agentdojo-ja
+pip install git+https://github.com/masahiroid/agentdojo-ja
 python -m agentdojo_ja.run --model-id <id> --suite all --language ja    # needs an OpenAI-compatible endpoint
 ```
 
@@ -93,7 +93,7 @@ native speakers, and a combined runner.
 
 | リソース | 内容 | 規模 | 出典・ライセンス | 種別 |
 |---|---|---|---|---|
-| [agentdojo-ja](https://github.com/masahirocom/agentdojo-ja) | AgentDojoの日本語ローカライズ。動的・状態ベースのエージェント評価（banking / slack / travel / workspace）、日本語攻撃25種、防御 | user 97 / injection 31 | [AgentDojo](https://github.com/ethz-spylab/agentdojo)、MIT | ローカライズ＋独自拡張 |
+| [agentdojo-ja](https://github.com/masahiroid/agentdojo-ja) | AgentDojoの日本語ローカライズ。動的・状態ベースのエージェント評価（banking / slack / travel / workspace）、日本語攻撃25種、防御 | user 97 / injection 31 | [AgentDojo](https://github.com/ethz-spylab/agentdojo)、MIT | ローカライズ＋独自拡張 |
 | [InjecAgent-ja](https://huggingface.co/datasets/masahiroid/injecagent-ja) | ツール応答に仕込まれた注入（直接的な害／データ窃取）。日本語のツール定義つき | 1,054件×2設定 | [InjecAgent](https://github.com/uiuc-kang-lab/InjecAgent)、MIT | 翻訳 |
 | [BIPIA-attacks-ja](https://huggingface.co/datasets/masahiroid/bipia-attacks-ja) | BIPIAの攻撃文（テキスト／コード）。文脈データは再配布しない | 250件 + 日本語固有50件（v0.2） | [BIPIA](https://github.com/microsoft/BIPIA)、MIT | 翻訳＋独自拡張 |
 | [Nemotron-RL-Agentic-IPI-ja](https://huggingface.co/datasets/masahiroid/nemotron-agentic-ipi-ja) | 9つの企業ドメインの、決定的なトレース検証つき RL／評価データ | 1,272件 | [NVIDIA](https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Indirect-Prompt-Injection-v1)、CC-BY-4.0 | 翻訳 |
@@ -103,7 +103,7 @@ native speakers, and a combined runner.
 
 | ツール | 用途 |
 |---|---|
-| [model-audit-lite](https://github.com/masahirocom/model-audit-lite) | ファイル監査（pickle／カスタムコード／チェックサム）、変換の完全性比較、プローブ実行（`--probe-set ja-injection`）、変換系譜つきCycloneDX ML-BOM（`bom`） |
+| [model-audit-lite](https://github.com/masahiroid/model-audit-lite) | ファイル監査（pickle／カスタムコード／チェックサム）、変換の完全性比較、プローブ実行（`--probe-set ja-injection`）、変換系譜つきCycloneDX ML-BOM（`bom`） |
 
 ### どの問いにどれを使うか
 
