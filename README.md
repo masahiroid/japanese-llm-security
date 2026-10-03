@@ -39,8 +39,8 @@ import json
 cases = json.load(open(hf_hub_download("masahiroid/injecagent-ja", "test_cases_dh_base_ja.json", repo_type="dataset")))
 tools = json.load(open(hf_hub_download("masahiroid/injecagent-ja", "tools_ja.json", repo_type="dataset")))
 
-from datasets import load_dataset
-nemotron = load_dataset("masahiroid/nemotron-agentic-ipi-ja", split="train")
+# environment schemas differ per domain, so read the JSONL directly rather than through Arrow
+nemotron = [json.loads(l) for l in open(hf_hub_download("masahiroid/nemotron-agentic-ipi-ja", "train.jsonl", repo_type="dataset"))]
 
 probes = hf_hub_download("masahiroid/japanese-indirect-prompt-injection-probes", "probes.jsonl", repo_type="dataset")
 ```
