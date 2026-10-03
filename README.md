@@ -75,7 +75,7 @@ These cover *harmful requests / refusal behavior*, a different question from age
 
 Each resource keeps its original license (MIT / CC-BY-4.0) with attribution; see the individual cards. Please cite the originals:
 AgentDojo (Debenedetti et al., NeurIPS D&B 2024), InjecAgent (Zhan et al., ACL Findings 2024), BIPIA (Yi et al., 2023), and NVIDIA's Nemotron dataset.
-This hub is an index; it contains no data.
+This hub is an index; it contains no data. The hub itself (this index and its documentation) is licensed under Apache-2.0; see [LICENSE](LICENSE).
 
 ### Contributing
 
@@ -137,7 +137,7 @@ native speakers, and a combined runner.
 
 各リソースは原本のライセンス（MIT／CC-BY-4.0）と帰属を維持します。個別のカードを参照してください。原本を引用してください:
 AgentDojo（Debenedetti et al., NeurIPS D&B 2024）、InjecAgent（Zhan et al., ACL Findings 2024）、BIPIA（Yi et al., 2023）、NVIDIAのNemotronデータセット。
-このハブは索引であり、データは含みません。
+このハブは索引であり、データは含みません。ハブ自体（この索引と文書）のライセンスは Apache-2.0 です（[LICENSE](LICENSE) を参照）。
 
 ### 貢献
 

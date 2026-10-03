@@ -11,6 +11,7 @@ abstract: >-
   agentdojo-ja, InjecAgent-ja, BIPIA-attacks-ja, Nemotron-RL-Agentic-IPI-ja, the Japanese
   indirect-injection probes, and model-audit-lite.
 repository-code: "https://github.com/masahiroid/japanese-llm-security"
+license: Apache-2.0
 keywords:
   - llm-security
   - prompt-injection

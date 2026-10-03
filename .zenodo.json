@@ -1,0 +1,25 @@
+{
+  "title": "japanese-llm-security",
+  "upload_type": "software",
+  "description": "A map of Japanese-language LLM / agent security resources for indirect prompt injection: agentdojo-ja, InjecAgent-ja, BIPIA-attacks-ja, Nemotron-RL-Agentic-IPI-ja, the Japanese indirect-injection probes, and model-audit-lite.",
+  "creators": [
+    {
+      "name": "Nakatsugawa, Masahiro",
+      "orcid": "0009-0000-3224-0103"
+    }
+  ],
+  "license": "apache-2.0",
+  "keywords": [
+    "llm-security",
+    "prompt-injection",
+    "japanese",
+    "resources"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/masahiroid/japanese-llm-security",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
